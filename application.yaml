@@ -9,10 +9,10 @@ spec:
   source:
     repoURL: https://github.com/michalbarczyk/argocd-app-cfg-example.git
     targetRevision: HEAD
-    path: dev
+    path: test
   destination: 
     server: https://kubernetes.default.svc
-    namespace: exampleapp
+    namespace: mongoapp
 
   syncPolicy:
     syncOptions:
